@@ -7,11 +7,11 @@ do
     Console.Write("Digite o valor atual do seu salário: ");
     wage = float.Parse(Console.ReadLine());
 
-    if (wage < 0)
+    if (wage <= 0)
     {
         Console.WriteLine("\nO salário deve ser um valor positivo.\n");
     }
-} while (wage < 0);
+} while (wage <= 0);
 
 
 do
